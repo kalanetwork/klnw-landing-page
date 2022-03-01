@@ -1,0 +1,21 @@
+{
+  "name": "KALA - Plug2Earn Social Investment Platform",
+  "short_name": "KALA - Plug2Earn Social Investment Platform",
+  "description": "Socialfi, social trading, copy trading, crypto trading, copy trade, finance invest, defi, cefi, trading expert, trader, crypto, bitcoin, investment, trading community",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "32x32",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "kala-icon-144.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    }
+  ],
+  "start_url": ".?v=n",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

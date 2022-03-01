@@ -1,0 +1,20 @@
+@import "~antd/dist/antd.css";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap");
+@import "animate.css/animate.min.css";
+
+.App {
+  padding: 24px 12vw;
+  background-color: #1E252B;
+  min-height: 1680px;
+  position: relative;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+.App .container {
+  max-width: 1440px;
+  position: relative;
+  margin: auto;
+}

@@ -1,0 +1,139 @@
+.App {
+  .border-gradient {
+    border: 10px solid;
+    border-image-slice: 1;
+    border-width: 12px;
+    overflow: hidden;
+  }
+  .border-gradient {
+    border-image-source: linear-gradient(to bottom, #767dff, #bda9f3);
+    box-shadow: rgba(225, 225, 225, 0.48) 0px 0px 16px;
+  }
+  .btnBuyToken {
+    position: relative;
+    transition: all 0.5s;
+    background-image: linear-gradient(to bottom, #825b89, #7024ed);
+    &:hover {
+      transform: scale(1.05);
+      background-image: linear-gradient(to bottom, #825b89, #825b89);
+    }
+  }
+  .tokennomicBtn {
+    &:hover {
+      transform: scale(1.05);
+    }
+  }
+  .useCaseItem {
+    transition: all 0.5s;
+    &:hover {
+      transform: scale(1.05) translateY(-9px);
+    }
+  }
+  .kalaNavbar {
+    .kalaNavLink {
+      &:hover {
+        color: white;
+      }
+      transition: all 0.5s;
+      color: #a5adcf;
+    }
+  }
+
+  .goToTopBtnHide {
+    transition: all 0.68s;
+    opacity: 0;
+    transform: translate(12rem, 12rem);
+  }
+  .goToTopBtnShow {
+    opacity: 1;
+    transition: all 0.68s;
+    transform: translate(0);
+    cursor: pointer;
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+  #distribution {
+    .donutchart {
+      overflow: initial;
+      .donutchart-arcs {
+        .selected {
+          opacity: 1;
+        }
+        .toggled {
+          // transform: scale(1.038) translateX(9px);
+          // opacity: 1;
+          transition: all 0.79s;
+        }
+        .donutchart-arcs-path {
+          &:hover {
+            // transform: scale(1.038) translateX(4px);
+            // opacity: 1;
+            transition: all 0.79s;
+          }
+        }
+      }
+
+      .donutchart-innertext {
+        display: none;
+      }
+    }
+  }
+  #roadmap {
+    .roadmapItem {
+      transition: all 0.5s;
+      margin: 0px 18px;
+      display: inline;
+      &:hover {
+        transform: translateY(-68px);
+      }
+    }
+  }
+  .personCard {
+    transition: all 0.5s;
+    &:hover {
+      box-shadow: rgba(255, 255, 255, 0.2) 0px 2px 8px 0px;
+      transform: translateY(-9px);
+    }
+  }
+  .imgHoverScale {
+    transition: all 0.5s;
+    &:hover {
+      transform: translateY(-9px) scale(1.05);
+    }
+  }
+  .btnSubscribe {
+    transition: all 0.5s;
+    box-shadow: rgba(255, 255, 255, 0.4) 0px 2px 8px 0px;
+    &:hover {
+      transform: scale(1.05);
+      background-image: linear-gradient(to bottom, #11cabe, #8ac5c1);
+    }
+  }
+
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    padding: 9px;
+    .ant-row {
+      width: 100%;
+    }
+  }
+}
